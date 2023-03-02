@@ -20,7 +20,7 @@
     <a href="https://github.com/idosh333/chatgptdirect"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/idosh333/chatgptdirect">View Demo</a>
+    <a href="https://github.com/idosh333/chatgptdirect#examples">View Demo</a>
     ·
     <a href="https://github.com/idosh333/chatgptdirect/issues">Report Bug</a>
     ·
@@ -56,17 +56,39 @@ To get a local copy up and running follow these simple example steps.
    ```
 2. Install the required python packages
    Just run the install_requirements.bat, this is only needed for first time.
-3. Create a new '.env' named exactly like this one
-   and paste your OpenAPI key there like so:
+3. Get your Openai API key from [![openai-api-key][openai-api-key]].
+4. Create a new '.env' named exactly like this one,
+   and paste your Openai API key like so:
    ```
    API_KEY=THIS_IS_AN_API_KEY
    ```
+
+<!-- USE-->
 
 ### Use
 
 Run the `run.bat` file and use the web server that will be opened automatically.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- EXAMPLES -->
+
+### Product example
+
+<img src="https://i.imgur.com/yW47MiO.png" alt="example of use" width="900" height="">
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- TRICK -->
+
+### Nice to know
+
+1. You can submit your prompt using Ctrl+Enter or using the submit button.
+2. You can delete the chat history using the clear chat history button.
+3. The project is dynamic and can be ran on any screen size.
+4. Since the project is ran by Streamlit it can be viewed in light and dark modes.
+   Just click on the hamburger button on the right of the screen and change the Streamlit's settings.
+5. The project was built in less than a day😉
 
 <!-- CONTRIBUTING -->
 
@@ -113,3 +135,4 @@ Project Link: [https://github.com/idosh333/chatgptdirect](https://github.com/ido
 [product-screenshot]: images/screenshot.png
 [made-with-python]: http://ForTheBadge.com/images/badges/made-with-python.svg
 [python-url]: https://www.python.org/downloads/release/python-3112/
+[openai-api-key]: https://platform.openai.com/account/api-keys

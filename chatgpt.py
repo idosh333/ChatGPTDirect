@@ -83,11 +83,6 @@ def main():
             padding: 10px;
             margin: 10px 0;
           }}
-          .send {{
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-          }}
         </style>
     """, unsafe_allow_html=True)
 
@@ -104,17 +99,21 @@ def main():
     # Create the input prompt field and send button
     input_container = st.container()
     send_button = st.button("Send", key="send_button")
+    reset_button = st.button("Clear Chat History", key="clear_button")
 
     with input_container:
         prompt = st.text_area("Type your prompt here",
                               key="prompt", height=50, max_chars=20000)
 
-    if send_button and len(prompt) > 3:
-        generate_response(prompt, model_engine)
-        input_container.empty()
+    if len(prompt) > 3:
+        if send_button:
+            generate_response(prompt, model_engine)
 
-    if keyboard.is_pressed("ctrl") and keyboard.is_pressed("enter") and len(prompt) > 3:
-        generate_response(prompt, model_engine)
+        if keyboard.is_pressed("ctrl") and keyboard.is_pressed("enter"):
+            generate_response(prompt, model_engine)
+
+    if reset_button:
+        st.session_state.chat_history = []
 
     display_chat()
 
