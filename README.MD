@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/idosh333/chatgptdirect">
-    <img src="img/logo.png" alt="Logo" width="500" height="500">
+    <img src="https://imgur.com/zTylAmd.png" alt="Logo" width="500" height="500">
   </a>
 
 <h3 align="center">ChatGPT Direct</h3>
