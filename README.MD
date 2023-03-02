@@ -20,7 +20,7 @@
     <a href="https://github.com/idosh333/chatgptdirect"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/idosh333/chatgptdirect#examples">View Demo</a>
+    <a href="https://github.com/idosh333/chatgptdirect#product-example">View Demo</a>
     ·
     <a href="https://github.com/idosh333/chatgptdirect/issues">Report Bug</a>
     ·
@@ -75,7 +75,7 @@ Run the `run.bat` file and use the web server that will be opened automatically.
 
 ### Product example
 
-<img src="https://i.imgur.com/yW47MiO.png" alt="example of use" width="900" height="">
+<img src="https://i.imgur.com/yW47MiO.png" alt="example of use" width="1400" height="">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
