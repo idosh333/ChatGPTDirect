@@ -15,7 +15,7 @@
 <h3 align="center">ChatGPT Direct</h3>
 
   <p align="center">
-    An easy to use chatGPT mimic using openai API.
+    An easy-to-use chatGPT mimic using OpenAI's API.
     <br />
     <a href="https://github.com/idosh333/chatgptdirect"><strong>Explore the docs »</strong></a>
     <br />
@@ -32,9 +32,10 @@
 
 ## About The Project
 
-ChatGPTDirect was made for bypassing queues when trying to use chat.openai.com/chat.
-Using the chatGPT API directly and openai's python library made this project possible.
-Made for personal use, use at your own risk.
+ChatGPTDirect was created to bypass queues when using `chat.openai.com/chat`.
+By using the chatGPT API directly and OpenAI's Python library,
+this project became possible. This project was initially made for personal use,
+so please use at your own risk.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -46,30 +47,55 @@ Made for personal use, use at your own risk.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+These instructions will get you a copy of the project up and running on
+your local machine for development and testing purposes.
 
+<!-- PREREQUISITES -->
+
+### Prerequisites
+To run this project, you'll need to have the Python installed(3.8 or higher).
+
+<!-- INSTALLATION -->
 ### Installation
 
-1. Clone the repo
+1. Clone the repository
    ```sh
    git clone https://github.com/idosh333/chatgptdirect.git
    ```
-2. Install the required python packages
-   Just run the install_requirements.bat, this is only needed for first time.
-3. Get your Openai API key from [![openai-api-key][openai-api-key]].
-4. Create a new '.env' named exactly like this one,
-   and paste your Openai API key like so:
+2. Install the required python packages either by running `install_requirements.bat`,
+   or by running the next command in the directory of the folder:
+   ```sh
+   pip install -r requirements.txt
    ```
-   API_KEY=THIS_IS_AN_API_KEY
+3. Get your OpenAI API key from [OpenAI's API dashboard.](openai-api-key).
+4. Create a new `.env` file and add your OpenAI API key like so:
+   ```
+   API_KEY=YOUR_API_KEY_HERE
    ```
 
-<!-- USE-->
+<!-- USAGE-->
 
-### Use
+### Usage
 
-Run the `run.bat` file and use the web server that will be opened automatically.
+1. Run the project either by using `run.bat` file or open a by running
+   the next command:
+   ```
+   streamlit run chatgpt.py
+   ```
+2. A new browser tab should open automatically with the application running.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- FYI -->
+
+### Nice to know
+
+1. You can submit your prompt using Ctrl+Enter or the Submit button.
+2. You can delete the chat history using the Clear Chat History button.
+3. The project is dynamic and can be run on any screen size.
+4. Since the project is built with Streamlit, it can be viewed in both light and dark modes.
+   Click on the hamburger icon on the right of the screen to change Streamlit's settings.
+5. The project was built in less than a day. 😉
 
 <!-- EXAMPLES -->
 
@@ -79,16 +105,6 @@ Run the `run.bat` file and use the web server that will be opened automatically.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- TRICK -->
-
-### Nice to know
-
-1. You can submit your prompt using Ctrl+Enter or using the submit button.
-2. You can delete the chat history using the clear chat history button.
-3. The project is dynamic and can be ran on any screen size.
-4. Since the project is ran by Streamlit it can be viewed in light and dark modes.
-   Just click on the hamburger button on the right of the screen and change the Streamlit's settings.
-5. The project was built in less than a day😉
 
 <!-- CONTRIBUTING -->
 
@@ -96,14 +112,7 @@ Run the `run.bat` file and use the web server that will be opened automatically.
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+If you have a suggestion that would make this better, please fork the repository and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
