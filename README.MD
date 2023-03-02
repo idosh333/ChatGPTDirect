@@ -67,7 +67,7 @@ To run this project, you'll need to have the Python installed(3.8 or higher).
    ```sh
    pip install -r requirements.txt
    ```
-3. Get your OpenAI API key from [OpenAI's API dashboard.](openai-api-key).
+3. Get your OpenAI API key from [OpenAI's API dashboard.][openai-api-key].
 4. Create a new `.env` file and add your OpenAI API key like so:
    ```
    API_KEY=YOUR_API_KEY_HERE
