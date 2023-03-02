@@ -1,6 +1,3 @@
-streamlit
-openai
-os
-datetime
-python-dotenv
-html
+streamlit==1.18.1
+openai==0.26.5
+python-dotenv==0.21.1
