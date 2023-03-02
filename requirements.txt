@@ -3,3 +3,4 @@ openai
 os
 datetime
 python-dotenv
+html
